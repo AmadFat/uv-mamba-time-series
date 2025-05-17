@@ -6,19 +6,15 @@ platforms = ["linux-64"]
 [tasks]
 
 [dependencies]
-python = ">=3.13,<3.14"
-setuptools = "*"
-
-[build-dependencies]
-setuptools = "*"
+python = ">=3.12,<3.13"
 
 [pypi-dependencies]
 torch = { version = ">=2.6,<2.7", index = "https://download.pytorch.org/whl/cu126" }
 torchvision = { index = "https://download.pytorch.org/whl/cu126" }
-causal-conv1d = { url = "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.5.0.post8/causal_conv1d-1.5.0.post8+cu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl" }
-mamba-ssm = { url = "https://github.com/state-spaces/mamba/releases/download/v2.2.4/mamba_ssm-2.2.4+cu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl" }
-nnaf = { git = "https://github.com/AmadFat/NNAF.git", branch = "main" }
-click = {}
-pyqt6 = {}
-pyqtgraph = {}
-pyopengl = {}
+causal-conv1d = { url = "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.5.0.post8/causal_conv1d-1.5.0.post8+cu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl" }
+mamba-ssm = { url = "https://github.com/state-spaces/mamba/releases/download/v2.2.4/mamba_ssm-2.2.4+cu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl" }
+matplotlib = {}
+scikit-learn = {}
+basemap = {}
+tabulate = {}
+tensorboard = {}
