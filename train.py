@@ -9,17 +9,18 @@ import zoo.criterion
 import time
 
 def main():
-    max_epochs = 10
+    max_epochs = 6
+    exp = time.strftime("%Y-%m-%d_%H-%M-%S")
 
     dataset = zoo.data.MPTSDataset(
         root="./data",
         train=True,
         transform=zoo.data.Normalize(),
     )
-    train_dataset, val_dataset = dataset.split([0.8, 0.2])
+    train_dataset, val_dataset = dataset.split([0.5, 0.5])
     train_loader = zoo.data.MPTSLoader(
         dataset=train_dataset,
-        batch_size=4,
+        batch_size=8,
         shuffle=True,
         num_workers=24,
         pin_memory=False,
@@ -28,7 +29,7 @@ def main():
     )
     val_loader = zoo.data.MPTSLoader(
         dataset=val_dataset,
-        batch_size=4,
+        batch_size=8,
         shuffle=False,
         num_workers=8,
         pin_memory=False,
@@ -36,13 +37,13 @@ def main():
         collate_fn=zoo.data.collate_fn,
     )
     model = zoo.model.MPTSModel(
-        d_model=64,
+        d_model=16,
         num_blocks=2,
         block_norm=partial(nn.RMSNorm, eps=1e-6),
-        mamba_d_state=64,
-        mamba_d_conv=2,
+        mamba_d_state=16,
+        mamba_d_conv=4,
         mamba_expand=2,
-        mamba_headdim=16,
+        mamba_headdim=4,
         mlp_expand=4,
         mlp_bias=True,
         mlp_activation=nn.SiLU,
@@ -62,18 +63,21 @@ def main():
     scheduler = zoo.engine.warmup_cosine_decay(
         optimizer,
         max_epochs=max_epochs,
-        warmup_epochs=2,
+        warmup_epochs=1,
         loader_size=len(train_loader),
     )
     criterion = zoo.criterion.MaskedMSELoss()
     logger = zoo.logger.Logger(
         name="MPTS",
         step_interval=5,
-        file_path=f"./logs/{time.strftime('%Y-%m-%d_%H-%M-%S')}.log",
-        tb_path=f"./tbevents/{time.strftime('%Y-%m-%d_%H-%M-%S')}",
+        file_path=f"./logs/{exp}.log",
+        tb_path=f"./tbevents/{exp}",
+        mode="DEBUG",
     )
+    logger.add(num_param=(sum(p.numel() for p in model.parameters()), dict(trace=False, fmt="d")))
+    logger.commit()
 
-    for epoch in range(max_epochs):
+    for epoch in range(1, 1 + max_epochs):
         zoo.engine.train_one_epoch(
             model=model,
             loader=train_loader,
@@ -96,6 +100,10 @@ def main():
             epoch=epoch,
             max_epochs=max_epochs,
         )
+    
+    from pathlib import Path
+    Path("./ckpts").mkdir(parents=True, exist_ok=True)
+    torch.save(model.state_dict(), f"./ckpts/{exp}.pth")
 
 if __name__ == "__main__":
     main()

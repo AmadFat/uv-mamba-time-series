@@ -53,8 +53,6 @@ def train_one_epoch(
         _bs_accumulated = 0
     
     for step, (coors, masks) in enumerate(loader, 1):
-        if lr_scheduler is not None:
-            lr_scheduler.step()
 
         coors = coors.to(device, non_blocking=True)
         masks = masks.to(device, non_blocking=True)
@@ -101,6 +99,9 @@ def train_one_epoch(
                 epoch=epoch, max_epochs=max_epochs,
                 step=step, max_steps=len(loader),
             )
+
+        if lr_scheduler is not None:
+            lr_scheduler.step()
 
 @torch.no_grad()
 def val(
