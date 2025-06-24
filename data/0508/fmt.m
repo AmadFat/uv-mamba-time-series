@@ -53,7 +53,7 @@ for i = 1: n_cols
     for j = 1: nsample
 
         slice = arr(j, :);
-        latlon = slice(1: 2);
+        latlon = slice(1: 2)/10;
         velocity = slice(3);
         direction = slice(4);
         latlons(1, sample_idx).LatLon = latlon;

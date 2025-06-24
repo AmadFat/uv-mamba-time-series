@@ -1,7 +1,7 @@
 [workspace]
 name = "pixi-mamba-time-series"
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["linux-64","win-64"]
 
 [tasks]
 

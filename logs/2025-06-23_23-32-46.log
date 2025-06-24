@@ -1,0 +1,249 @@
+[DEBUG] 0623-2332 logger.py:112: Tensorboard path: ./tbevents/2025-06-23_23-32-46
+[DEBUG] 0623-2332 logger.py:112: Environment info:
++---------------------+----------------------------------------+
+| Hostname            | aska                                   |
++---------------------+----------------------------------------+
+| OS System           | Linux                                  |
++---------------------+----------------------------------------+
+| OS Release          | 5.15.167.4-microsoft-standard-WSL2     |
++---------------------+----------------------------------------+
+| Python Version      | 3.12.10                                |
++---------------------+----------------------------------------+
+| PyTorch Version     | 2.6.0+cu126                            |
++---------------------+----------------------------------------+
+| TorchVision Version | 0.21.0+cu126                           |
++---------------------+----------------------------------------+
+| GPU Current Device  | (0) NVIDIA GeForce RTX 3060 Laptop GPU |
++---------------------+----------------------------------------+
+| GPU Memory          | 6.44 GB                                |
++---------------------+----------------------------------------+
+[DEBUG] 0623-2332 logger.py:112: Logger initialized.
+[INFO] 0623-2332 Epoch: Step: logger.py:115: num_param:9520
+[INFO] 0623-2335 Epoch:1/6 Step:1/37 logger.py:115: loss+train:0.4483(0.4483) | lr:0.000e+00
+[DEBUG] 0623-2335 Epoch:1/6 Step:2/37 logger.py:112: loss+train:0.4435(0.4459) | lr:2.703e-05
+[DEBUG] 0623-2335 Epoch:1/6 Step:3/37 logger.py:112: loss+train:0.4229(0.4382) | lr:5.405e-05
+[DEBUG] 0623-2335 Epoch:1/6 Step:4/37 logger.py:112: loss+train:0.4502(0.4412) | lr:8.108e-05
+[INFO] 0623-2335 Epoch:1/6 Step:5/37 logger.py:115: loss+train:0.4710(0.4472) | lr:1.081e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:6/37 logger.py:112: loss+train:0.4626(0.4500) | lr:1.351e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:7/37 logger.py:112: loss+train:0.4158(0.4445) | lr:1.622e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:8/37 logger.py:112: loss+train:0.3517(0.4302) | lr:1.892e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:9/37 logger.py:112: loss+train:0.3186(0.4039) | lr:2.162e-04
+[INFO] 0623-2335 Epoch:1/6 Step:10/37 logger.py:115: loss+train:0.2944(0.3686) | lr:2.432e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:11/37 logger.py:112: loss+train:0.2229(0.3207) | lr:2.703e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:12/37 logger.py:112: loss+train:0.2049(0.2785) | lr:2.973e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:13/37 logger.py:112: loss+train:0.1623(0.2406) | lr:3.243e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:14/37 logger.py:112: loss+train:0.1268(0.2023) | lr:3.514e-04
+[INFO] 0623-2335 Epoch:1/6 Step:15/37 logger.py:115: loss+train:0.1062(0.1646) | lr:3.784e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:16/37 logger.py:112: loss+train:0.0956(0.1392) | lr:4.054e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:17/37 logger.py:112: loss+train:0.0664(0.1115) | lr:4.324e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:18/37 logger.py:112: loss+train:0.0503(0.0891) | lr:4.595e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:19/37 logger.py:112: loss+train:0.0547(0.0746) | lr:4.865e-04
+[INFO] 0623-2335 Epoch:1/6 Step:20/37 logger.py:115: loss+train:0.0481(0.0630) | lr:5.135e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:21/37 logger.py:112: loss+train:0.0410(0.0521) | lr:5.405e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:22/37 logger.py:112: loss+train:0.0449(0.0478) | lr:5.676e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:23/37 logger.py:112: loss+train:0.0543(0.0486) | lr:5.946e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:24/37 logger.py:112: loss+train:0.0623(0.0501) | lr:6.216e-04
+[INFO] 0623-2335 Epoch:1/6 Step:25/37 logger.py:115: loss+train:0.0752(0.0555) | lr:6.486e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:26/37 logger.py:112: loss+train:0.0896(0.0653) | lr:6.757e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:27/37 logger.py:112: loss+train:0.0901(0.0743) | lr:7.027e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:28/37 logger.py:112: loss+train:0.0998(0.0834) | lr:7.297e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:29/37 logger.py:112: loss+train:0.1108(0.0931) | lr:7.568e-04
+[INFO] 0623-2335 Epoch:1/6 Step:30/37 logger.py:115: loss+train:0.1037(0.0988) | lr:7.838e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:31/37 logger.py:112: loss+train:0.1021(0.1013) | lr:8.108e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:32/37 logger.py:112: loss+train:0.0955(0.1024) | lr:8.378e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:33/37 logger.py:112: loss+train:0.0873(0.0998) | lr:8.649e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:34/37 logger.py:112: loss+train:0.0687(0.0914) | lr:8.919e-04
+[INFO] 0623-2335 Epoch:1/6 Step:35/37 logger.py:115: loss+train:0.0573(0.0822) | lr:9.189e-04
+[DEBUG] 0623-2335 Epoch:1/6 Step:36/37 logger.py:112: loss+train:0.0488(0.0715) | lr:9.459e-04
+[INFO] 0623-2335 Epoch:1/6 Step:37/37 logger.py:115: loss+train:0.0377(0.0599) | lr:9.730e-04
+[INFO] 0623-2336 Epoch:1/6 Step: logger.py:115: loss+val:0.0246(0.0474)
+[INFO] 0623-2336 Epoch:2/6 Step:1/37 logger.py:115: loss+train:0.0243(0.0385) | lr:1.000e-03
+[DEBUG] 0623-2336 Epoch:2/6 Step:2/37 logger.py:112: loss+train:0.0202(0.0311) | lr:9.999e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:3/37 logger.py:112: loss+train:0.0181(0.0250) | lr:9.997e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:4/37 logger.py:112: loss+train:0.0156(0.0206) | lr:9.994e-04
+[INFO] 0623-2336 Epoch:2/6 Step:5/37 logger.py:115: loss+train:0.0157(0.0188) | lr:9.988e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:6/37 logger.py:112: loss+train:0.0195(0.0179) | lr:9.982e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:7/37 logger.py:112: loss+train:0.0244(0.0187) | lr:9.974e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:8/37 logger.py:112: loss+train:0.0246(0.0200) | lr:9.965e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:9/37 logger.py:112: loss+train:0.0264(0.0221) | lr:9.954e-04
+[INFO] 0623-2336 Epoch:2/6 Step:10/37 logger.py:115: loss+train:0.0240(0.0238) | lr:9.942e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:11/37 logger.py:112: loss+train:0.0300(0.0259) | lr:9.928e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:12/37 logger.py:112: loss+train:0.0289(0.0268) | lr:9.913e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:13/37 logger.py:112: loss+train:0.0342(0.0287) | lr:9.897e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:14/37 logger.py:112: loss+train:0.0296(0.0293) | lr:9.879e-04
+[INFO] 0623-2336 Epoch:2/6 Step:15/37 logger.py:115: loss+train:0.0345(0.0314) | lr:9.859e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:16/37 logger.py:112: loss+train:0.0256(0.0306) | lr:9.839e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:17/37 logger.py:112: loss+train:0.0285(0.0305) | lr:9.817e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:18/37 logger.py:112: loss+train:0.0263(0.0289) | lr:9.793e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:19/37 logger.py:112: loss+train:0.0176(0.0265) | lr:9.768e-04
+[INFO] 0623-2336 Epoch:2/6 Step:20/37 logger.py:115: loss+train:0.0161(0.0228) | lr:9.742e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:21/37 logger.py:112: loss+train:0.0157(0.0208) | lr:9.714e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:22/37 logger.py:112: loss+train:0.0087(0.0169) | lr:9.685e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:23/37 logger.py:112: loss+train:0.0132(0.0143) | lr:9.655e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:24/37 logger.py:112: loss+train:0.0085(0.0124) | lr:9.623e-04
+[INFO] 0623-2336 Epoch:2/6 Step:25/37 logger.py:115: loss+train:0.0099(0.0112) | lr:9.590e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:26/37 logger.py:112: loss+train:0.0058(0.0092) | lr:9.556e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:27/37 logger.py:112: loss+train:0.0060(0.0087) | lr:9.521e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:28/37 logger.py:112: loss+train:0.0060(0.0072) | lr:9.484e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:29/37 logger.py:112: loss+train:0.0067(0.0069) | lr:9.445e-04
+[INFO] 0623-2336 Epoch:2/6 Step:30/37 logger.py:115: loss+train:0.0106(0.0070) | lr:9.406e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:31/37 logger.py:112: loss+train:0.0076(0.0074) | lr:9.365e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:32/37 logger.py:112: loss+train:0.0093(0.0080) | lr:9.323e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:33/37 logger.py:112: loss+train:0.0129(0.0094) | lr:9.280e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:34/37 logger.py:112: loss+train:0.0127(0.0106) | lr:9.235e-04
+[INFO] 0623-2336 Epoch:2/6 Step:35/37 logger.py:115: loss+train:0.0141(0.0113) | lr:9.189e-04
+[DEBUG] 0623-2336 Epoch:2/6 Step:36/37 logger.py:112: loss+train:0.0158(0.0129) | lr:9.143e-04
+[INFO] 0623-2336 Epoch:2/6 Step:37/37 logger.py:115: loss+train:0.0108(0.0133) | lr:9.094e-04
+[INFO] 0623-2336 Epoch:2/6 Step: logger.py:115: loss+val:0.0122(0.0131)
+[INFO] 0623-2336 Epoch:3/6 Step:1/37 logger.py:115: loss+train:0.0141(0.0134) | lr:9.045e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:2/37 logger.py:112: loss+train:0.0101(0.0126) | lr:8.995e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:3/37 logger.py:112: loss+train:0.0147(0.0124) | lr:8.943e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:4/37 logger.py:112: loss+train:0.0105(0.0123) | lr:8.890e-04
+[INFO] 0623-2336 Epoch:3/6 Step:5/37 logger.py:115: loss+train:0.0115(0.0122) | lr:8.836e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:6/37 logger.py:112: loss+train:0.0085(0.0111) | lr:8.781e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:7/37 logger.py:112: loss+train:0.0085(0.0107) | lr:8.725e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:8/37 logger.py:112: loss+train:0.0089(0.0096) | lr:8.668e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:9/37 logger.py:112: loss+train:0.0082(0.0091) | lr:8.610e-04
+[INFO] 0623-2336 Epoch:3/6 Step:10/37 logger.py:115: loss+train:0.0126(0.0093) | lr:8.551e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:11/37 logger.py:112: loss+train:0.0050(0.0086) | lr:8.490e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:12/37 logger.py:112: loss+train:0.0053(0.0080) | lr:8.429e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:13/37 logger.py:112: loss+train:0.0052(0.0072) | lr:8.367e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:14/37 logger.py:112: loss+train:0.0079(0.0072) | lr:8.303e-04
+[INFO] 0623-2336 Epoch:3/6 Step:15/37 logger.py:115: loss+train:0.0047(0.0056) | lr:8.239e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:16/37 logger.py:112: loss+train:0.0070(0.0060) | lr:8.174e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:17/37 logger.py:112: loss+train:0.0046(0.0059) | lr:8.108e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:18/37 logger.py:112: loss+train:0.0081(0.0065) | lr:8.041e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:19/37 logger.py:112: loss+train:0.0036(0.0056) | lr:7.973e-04
+[INFO] 0623-2336 Epoch:3/6 Step:20/37 logger.py:115: loss+train:0.0058(0.0058) | lr:7.904e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:21/37 logger.py:112: loss+train:0.0020(0.0048) | lr:7.835e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:22/37 logger.py:112: loss+train:0.0042(0.0047) | lr:7.765e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:23/37 logger.py:112: loss+train:0.0070(0.0045) | lr:7.693e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:24/37 logger.py:112: loss+train:0.0038(0.0046) | lr:7.622e-04
+[INFO] 0623-2336 Epoch:3/6 Step:25/37 logger.py:115: loss+train:0.0052(0.0044) | lr:7.549e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:26/37 logger.py:112: loss+train:0.0100(0.0061) | lr:7.475e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:27/37 logger.py:112: loss+train:0.0070(0.0066) | lr:7.401e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:28/37 logger.py:112: loss+train:0.0058(0.0064) | lr:7.327e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:29/37 logger.py:112: loss+train:0.0064(0.0069) | lr:7.251e-04
+[INFO] 0623-2336 Epoch:3/6 Step:30/37 logger.py:115: loss+train:0.0035(0.0065) | lr:7.175e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:31/37 logger.py:112: loss+train:0.0039(0.0053) | lr:7.098e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:32/37 logger.py:112: loss+train:0.0035(0.0046) | lr:7.021e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:33/37 logger.py:112: loss+train:0.0025(0.0040) | lr:6.943e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:34/37 logger.py:112: loss+train:0.0080(0.0043) | lr:6.864e-04
+[INFO] 0623-2336 Epoch:3/6 Step:35/37 logger.py:115: loss+train:0.0054(0.0047) | lr:6.785e-04
+[DEBUG] 0623-2336 Epoch:3/6 Step:36/37 logger.py:112: loss+train:0.0090(0.0057) | lr:6.706e-04
+[INFO] 0623-2336 Epoch:3/6 Step:37/37 logger.py:115: loss+train:0.0029(0.0056) | lr:6.626e-04
+[INFO] 0623-2336 Epoch:3/6 Step: logger.py:115: loss+val:0.0046(0.0060)
+[INFO] 0623-2336 Epoch:4/6 Step:1/37 logger.py:115: loss+train:0.0036(0.0051) | lr:6.545e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:2/37 logger.py:112: loss+train:0.0068(0.0054) | lr:6.464e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:3/37 logger.py:112: loss+train:0.0039(0.0044) | lr:6.383e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:4/37 logger.py:112: loss+train:0.0038(0.0045) | lr:6.301e-04
+[INFO] 0623-2336 Epoch:4/6 Step:5/37 logger.py:115: loss+train:0.0021(0.0040) | lr:6.219e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:6/37 logger.py:112: loss+train:0.0041(0.0041) | lr:6.136e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:7/37 logger.py:112: loss+train:0.0049(0.0038) | lr:6.053e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:8/37 logger.py:112: loss+train:0.0029(0.0035) | lr:5.970e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:9/37 logger.py:112: loss+train:0.0032(0.0034) | lr:5.887e-04
+[INFO] 0623-2336 Epoch:4/6 Step:10/37 logger.py:115: loss+train:0.0027(0.0036) | lr:5.803e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:11/37 logger.py:112: loss+train:0.0042(0.0036) | lr:5.719e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:12/37 logger.py:112: loss+train:0.0049(0.0036) | lr:5.635e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:13/37 logger.py:112: loss+train:0.0043(0.0039) | lr:5.551e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:14/37 logger.py:112: loss+train:0.0033(0.0039) | lr:5.466e-04
+[INFO] 0623-2336 Epoch:4/6 Step:15/37 logger.py:115: loss+train:0.0051(0.0044) | lr:5.382e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:16/37 logger.py:112: loss+train:0.0026(0.0040) | lr:5.297e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:17/37 logger.py:112: loss+train:0.0047(0.0040) | lr:5.212e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:18/37 logger.py:112: loss+train:0.0032(0.0038) | lr:5.127e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:19/37 logger.py:112: loss+train:0.0034(0.0038) | lr:5.042e-04
+[INFO] 0623-2336 Epoch:4/6 Step:20/37 logger.py:115: loss+train:0.0036(0.0035) | lr:4.958e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:21/37 logger.py:112: loss+train:0.0056(0.0041) | lr:4.873e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:22/37 logger.py:112: loss+train:0.0031(0.0038) | lr:4.788e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:23/37 logger.py:112: loss+train:0.0031(0.0037) | lr:4.703e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:24/37 logger.py:112: loss+train:0.0032(0.0037) | lr:4.618e-04
+[INFO] 0623-2336 Epoch:4/6 Step:25/37 logger.py:115: loss+train:0.0035(0.0037) | lr:4.534e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:26/37 logger.py:112: loss+train:0.0034(0.0033) | lr:4.449e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:27/37 logger.py:112: loss+train:0.0053(0.0037) | lr:4.365e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:28/37 logger.py:112: loss+train:0.0033(0.0037) | lr:4.281e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:29/37 logger.py:112: loss+train:0.0024(0.0036) | lr:4.197e-04
+[INFO] 0623-2336 Epoch:4/6 Step:30/37 logger.py:115: loss+train:0.0031(0.0035) | lr:4.113e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:31/37 logger.py:112: loss+train:0.0031(0.0034) | lr:4.030e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:32/37 logger.py:112: loss+train:0.0035(0.0031) | lr:3.947e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:33/37 logger.py:112: loss+train:0.0037(0.0032) | lr:3.864e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:34/37 logger.py:112: loss+train:0.0046(0.0036) | lr:3.781e-04
+[INFO] 0623-2336 Epoch:4/6 Step:35/37 logger.py:115: loss+train:0.0031(0.0036) | lr:3.699e-04
+[DEBUG] 0623-2336 Epoch:4/6 Step:36/37 logger.py:112: loss+train:0.0031(0.0036) | lr:3.617e-04
+[INFO] 0623-2336 Epoch:4/6 Step:37/37 logger.py:115: loss+train:0.0035(0.0036) | lr:3.536e-04
+[INFO] 0623-2336 Epoch:4/6 Step: logger.py:115: loss+val:0.0032(0.0035)
+[INFO] 0623-2336 Epoch:5/6 Step:1/37 logger.py:115: loss+train:0.0026(0.0031) | lr:3.455e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:2/37 logger.py:112: loss+train:0.0041(0.0033) | lr:3.374e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:3/37 logger.py:112: loss+train:0.0043(0.0035) | lr:3.294e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:4/37 logger.py:112: loss+train:0.0022(0.0033) | lr:3.215e-04
+[INFO] 0623-2336 Epoch:5/6 Step:5/37 logger.py:115: loss+train:0.0033(0.0033) | lr:3.136e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:6/37 logger.py:112: loss+train:0.0047(0.0037) | lr:3.057e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:7/37 logger.py:112: loss+train:0.0023(0.0034) | lr:2.979e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:8/37 logger.py:112: loss+train:0.0038(0.0032) | lr:2.902e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:9/37 logger.py:112: loss+train:0.0034(0.0035) | lr:2.825e-04
+[INFO] 0623-2336 Epoch:5/6 Step:10/37 logger.py:115: loss+train:0.0016(0.0032) | lr:2.749e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:11/37 logger.py:112: loss+train:0.0022(0.0026) | lr:2.673e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:12/37 logger.py:112: loss+train:0.0015(0.0025) | lr:2.599e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:13/37 logger.py:112: loss+train:0.0031(0.0024) | lr:2.525e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:14/37 logger.py:112: loss+train:0.0027(0.0022) | lr:2.451e-04
+[INFO] 0623-2336 Epoch:5/6 Step:15/37 logger.py:115: loss+train:0.0031(0.0025) | lr:2.378e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:16/37 logger.py:112: loss+train:0.0022(0.0025) | lr:2.307e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:17/37 logger.py:112: loss+train:0.0035(0.0029) | lr:2.235e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:18/37 logger.py:112: loss+train:0.0022(0.0027) | lr:2.165e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:19/37 logger.py:112: loss+train:0.0026(0.0027) | lr:2.096e-04
+[INFO] 0623-2336 Epoch:5/6 Step:20/37 logger.py:115: loss+train:0.0027(0.0026) | lr:2.027e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:21/37 logger.py:112: loss+train:0.0024(0.0027) | lr:1.959e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:22/37 logger.py:112: loss+train:0.0019(0.0024) | lr:1.892e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:23/37 logger.py:112: loss+train:0.0035(0.0026) | lr:1.826e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:24/37 logger.py:112: loss+train:0.0028(0.0027) | lr:1.761e-04
+[INFO] 0623-2336 Epoch:5/6 Step:25/37 logger.py:115: loss+train:0.0034(0.0028) | lr:1.697e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:26/37 logger.py:112: loss+train:0.0035(0.0030) | lr:1.633e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:27/37 logger.py:112: loss+train:0.0025(0.0031) | lr:1.571e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:28/37 logger.py:112: loss+train:0.0065(0.0037) | lr:1.510e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:29/37 logger.py:112: loss+train:0.0050(0.0042) | lr:1.449e-04
+[INFO] 0623-2336 Epoch:5/6 Step:30/37 logger.py:115: loss+train:0.0031(0.0041) | lr:1.390e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:31/37 logger.py:112: loss+train:0.0026(0.0039) | lr:1.332e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:32/37 logger.py:112: loss+train:0.0022(0.0039) | lr:1.275e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:33/37 logger.py:112: loss+train:0.0024(0.0030) | lr:1.219e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:34/37 logger.py:112: loss+train:0.0036(0.0028) | lr:1.164e-04
+[INFO] 0623-2336 Epoch:5/6 Step:35/37 logger.py:115: loss+train:0.0029(0.0027) | lr:1.110e-04
+[DEBUG] 0623-2336 Epoch:5/6 Step:36/37 logger.py:112: loss+train:0.0023(0.0027) | lr:1.057e-04
+[INFO] 0623-2336 Epoch:5/6 Step:37/37 logger.py:115: loss+train:0.0040(0.0030) | lr:1.005e-04
+[INFO] 0623-2336 Epoch:5/6 Step: logger.py:115: loss+val:0.0030(0.0032)
+[INFO] 0623-2336 Epoch:6/6 Step:1/37 logger.py:115: loss+train:0.0026(0.0030) | lr:9.549e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:2/37 logger.py:112: loss+train:0.0049(0.0034) | lr:9.056e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:3/37 logger.py:112: loss+train:0.0016(0.0032) | lr:8.575e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:4/37 logger.py:112: loss+train:0.0031(0.0030) | lr:8.105e-05
+[INFO] 0623-2336 Epoch:6/6 Step:5/37 logger.py:115: loss+train:0.0034(0.0031) | lr:7.648e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:6/37 logger.py:112: loss+train:0.0036(0.0033) | lr:7.202e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:7/37 logger.py:112: loss+train:0.0020(0.0027) | lr:6.770e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:8/37 logger.py:112: loss+train:0.0016(0.0027) | lr:6.349e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:9/37 logger.py:112: loss+train:0.0028(0.0027) | lr:5.942e-05
+[INFO] 0623-2336 Epoch:6/6 Step:10/37 logger.py:115: loss+train:0.0023(0.0025) | lr:5.546e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:11/37 logger.py:112: loss+train:0.0020(0.0021) | lr:5.164e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:12/37 logger.py:112: loss+train:0.0048(0.0027) | lr:4.795e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:13/37 logger.py:112: loss+train:0.0028(0.0029) | lr:4.439e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:14/37 logger.py:112: loss+train:0.0027(0.0029) | lr:4.095e-05
+[INFO] 0623-2336 Epoch:6/6 Step:15/37 logger.py:115: loss+train:0.0031(0.0031) | lr:3.766e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:16/37 logger.py:112: loss+train:0.0013(0.0029) | lr:3.449e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:17/37 logger.py:112: loss+train:0.0045(0.0029) | lr:3.146e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:18/37 logger.py:112: loss+train:0.0023(0.0028) | lr:2.856e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:19/37 logger.py:112: loss+train:0.0041(0.0031) | lr:2.580e-05
+[INFO] 0623-2336 Epoch:6/6 Step:20/37 logger.py:115: loss+train:0.0034(0.0031) | lr:2.318e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:21/37 logger.py:112: loss+train:0.0050(0.0038) | lr:2.069e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:22/37 logger.py:112: loss+train:0.0017(0.0033) | lr:1.834e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:23/37 logger.py:112: loss+train:0.0036(0.0036) | lr:1.613e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:24/37 logger.py:112: loss+train:0.0030(0.0033) | lr:1.406e-05
+[INFO] 0623-2336 Epoch:6/6 Step:25/37 logger.py:115: loss+train:0.0050(0.0037) | lr:1.213e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:26/37 logger.py:112: loss+train:0.0032(0.0033) | lr:1.035e-05
+[DEBUG] 0623-2336 Epoch:6/6 Step:27/37 logger.py:112: loss+train:0.0020(0.0034) | lr:8.698e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:28/37 logger.py:112: loss+train:0.0027(0.0032) | lr:7.192e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:29/37 logger.py:112: loss+train:0.0024(0.0031) | lr:5.828e-06
+[INFO] 0623-2336 Epoch:6/6 Step:30/37 logger.py:115: loss+train:0.0035(0.0028) | lr:4.607e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:31/37 logger.py:112: loss+train:0.0020(0.0025) | lr:3.528e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:32/37 logger.py:112: loss+train:0.0026(0.0027) | lr:2.593e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:33/37 logger.py:112: loss+train:0.0018(0.0025) | lr:1.801e-06
+[DEBUG] 0623-2336 Epoch:6/6 Step:34/37 logger.py:112: loss+train:0.0022(0.0024) | lr:1.153e-06
+[INFO] 0623-2336 Epoch:6/6 Step:35/37 logger.py:115: loss+train:0.0029(0.0023) | lr:6.487e-07
+[DEBUG] 0623-2336 Epoch:6/6 Step:36/37 logger.py:112: loss+train:0.0020(0.0023) | lr:2.883e-07
+[INFO] 0623-2336 Epoch:6/6 Step:37/37 logger.py:115: loss+train:0.0020(0.0022) | lr:7.209e-08
+[INFO] 0623-2336 Epoch:6/6 Step: logger.py:115: loss+val:0.0029(0.0024)
